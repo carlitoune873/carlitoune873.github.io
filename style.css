@@ -1,0 +1,91 @@
+
+
+/* ############ Default ########### */
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    background-image: linear-gradient(rgb(255, 255, 255), #075191);
+    /* background-image: url("http://www.scoutsduliban.org/website/wp-content/uploads/images/pret.jpg"); */
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+/* ########### Nav bar ########### */
+
+nav {
+    width: 100%;
+    margin: 0;
+    
+}
+
+nav ul  {
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.39);
+    
+    
+}
+
+ul.topnav li {
+    list-style: none;
+    max-height: 40px;
+}
+
+nav ul li a {
+    float: right;
+    display: block;
+    text-decoration: none;
+    
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+nav ul li div a {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+    width: 82%;
+    border-radius: 0;
+    font-weight: bold;
+    font-style: italic;
+    color: #0a4f94;
+   
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav ul li img.impessa {
+    width: 40px;
+    
+    display: inline-block;
+    margin: -2px;
+    position: absolute;
+    padding-top: 2.5px;
+}
+
+nav ul li img.sdl {
+    width: 40px;
+    display: inline-block;
+    margin: -2px;
+    position: absolute;
+    padding-left: 45px ;
+    padding-top: 2.5px;
+}
+
+
+/* ############## home page background ############ */
