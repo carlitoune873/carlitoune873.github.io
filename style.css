@@ -57,7 +57,9 @@ nav ul li div a.right {
     text-align: center;
     font-size: 25px;
     padding-top: 7px;
-    width: 82%;
+    margin-right: 50%;
+    margin-left: 50%;
+    position:absolute;
     border-radius: 0;
     font-weight: bold;
     font-style: italic;
@@ -76,15 +78,16 @@ nav ul li a img.impessa {
     margin: -2px;
     position: absolute;
     padding-top: 2.5px;
-    float: none;
+    
 }
 
-nav ul li a img.sdl {
+nav ul li img.sdl {
     width: 40px;
     display: inline-block;
     margin: -2px;
     margin-left: 45px ;
-    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    position: absolute;
 }
 
 
