@@ -42,7 +42,7 @@ ul.topnav li {
     max-height: 40px;
 }
 
-nav ul li a {
+nav ul li a.right {
     float: right;
     display: block;
     text-decoration: none;
@@ -52,7 +52,7 @@ nav ul li a {
     color: black;
 }
 
-nav ul li div a {
+nav ul li div a.right {
     margin: 0;
     text-align: center;
     font-size: 25px;
@@ -69,16 +69,17 @@ nav ul li div a {
 
 }
 
-nav ul li img.impessa {
+nav ul li a img.impessa {
     width: 40px;
-    
+    margin: 0;
     display: inline-block;
     margin: -2px;
     position: absolute;
     padding-top: 2.5px;
+    float: none;
 }
 
-nav ul li img.sdl {
+nav ul li a img.sdl {
     width: 40px;
     display: inline-block;
     margin: -2px;
