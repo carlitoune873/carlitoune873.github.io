@@ -173,6 +173,10 @@ nav ul li img.sdl {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(15px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
  }
 
  #PopUp.active {
