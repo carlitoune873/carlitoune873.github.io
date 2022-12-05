@@ -141,25 +141,12 @@ nav ul li img.sdl {
  #sidebar ul li div {
     text-decoration: none;
     color: #ffffff;
+
  }
 
-
-/* ########## slide image ########### */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ #sidebar ul li.currentPage {
+   background-color:#063a68;
+ }
 
 
  /* ############# LogIn Pop-up ############## */
@@ -175,7 +162,7 @@ nav ul li img.sdl {
     left: 12.5%;
     right: 12.5%;
     border: 3px solid #dbdbdb;
-    z-index: 9;
+    z-index: 999999999;
     box-shadow: 0px 2px 41px 6px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 2px 41px 6px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 41px 6px rgba(0,0,0,0.75);
